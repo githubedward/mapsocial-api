@@ -3,7 +3,7 @@ const express = require('express'),
     morgan = require('morgan'),
     cors = require('cors'),
     mongoose = require('mongoose'),
-    dotenv = require('dotenv'),
+    dotenv = require('dotenv');
 
 // db models
 const User = require('./models/User'),
